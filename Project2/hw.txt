@@ -1,0 +1,95 @@
+1. 
+
+endlendl
+grendl
+
+2. It prints out a triangle of “#”’s with the base being the number of sides entered.
+
+3. 
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int side;
+    
+    cout << "Enter a number: ";
+    cin >> side;
+    
+    for (int i = side; i > 0; i--)
+    {
+        int j = 0;
+        while (j < i-1)
+        {
+            cout << " ";
+            j++;
+        }
+        while (j < side)
+        {
+            cout << "#";
+            j++;
+        }
+        cout << endl;
+    }
+
+}
+
+
+4. 
+
+
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int side;
+    
+    cout << "Enter a number: ";
+    cin >> side;
+    
+    int i = side;
+    do
+    {
+        int j = 0;
+        while (j < i-1)
+        {
+            cout << " ";
+            j++;
+        }
+        while (j < side)
+        {
+            cout << "#";
+            j++;
+        }
+        
+        if (side > 0)
+        cout << endl;
+
+        i--;
+    }
+    while (i > 0);
+
+}
+
+
+5. 
+switch (week)
+    {
+        case 0:
+            cout << "first lecture";
+            break;
+            
+        case 4:
+        case 8:
+            cout << "midterm";
+            break;
+
+        case 10:
+            cout << "final";
+            break;
+
+        default:
+cout << "nothing";
+     }

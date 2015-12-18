@@ -1,0 +1,15 @@
+1. I had trouble programming the rates of texts from 201 to 400 and texts over 400. I kept overcharging because once I was over 400, I would charge both rates. However, I figured out that once the text messages were over 400, you either added $4.00 or $6.00, depending on the month. From there, I was able to run my program smoothly.
+
+
+2. 
+
+Normal test case (500, 500, Steve Rogers, 12)
+Normal test case (422, 488, Tony Stark, 7)
+Normal test case (356, 976, Nick Fury, 3)
+Normal test case (401, 3, Bruce Banner, 8)
+Negative minutesUsed (-543, 703, Peter Parker, 8)
+Negative textMessages (333, -201, Johnny Storm, 1)
+Blank customerName (402, 367,,2)
+MonthNumber out of range (388, 289, Scott Summers, 0)
+MonthNumber out of range (400, 233, Jean Grey, 100)
+
